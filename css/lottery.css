@@ -1,0 +1,60 @@
+body{
+	margin:0; padding: 0; background: gray; color: darkblue;
+	font-family: tahoma;
+}
+.container{
+	width: 80%; margin: 0 auto;
+}
+header{
+	background:#D1AD01; padding: 3%; font-size: 20px; text-align: center;
+}
+h2{
+	margin: 0;
+}
+section{
+	margin-top: 1%; background: #D1AD01; display: flex;
+}
+section article:first-child{
+	width: 23%; background: #FFA4D1; padding: 1%; text-align: center;
+}
+section article:first-child h2{
+	margin: 5% 0%;
+    font-size: 28px;
+    text-align: center;
+    background: #D1AD01;
+    padding: 3%;
+}
+section article:first-child a img{
+	width: 120px;
+}
+section article:first-child a img:hover{
+	box-shadow: 5px 10px 10px #D1AD01; border-radius: 100px;
+}
+
+section article:nth-child(2){
+	width: 65%; padding: 2% 5%; 
+}
+#load{
+	width:200px; position: absolute; top: 40%; left: 45%;
+}
+section article:nth-child(2) div:nth-child(2){
+	margin-top: 5%;
+}
+
+#start{
+	text-decoration: none; font-size: 23px; font-weight: bold;
+}
+
+#result{
+	color: red;
+    font-weight: bold;
+    font-size: 35px;
+    background: yellow;
+    padding: 15% 10%;
+    border-radius: 150px;
+    text-align: center;
+}
+
+footer{
+	background: #D1AD01; margin-top: 1%; padding: 3%; text-align: center;
+}
