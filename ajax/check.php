@@ -46,6 +46,6 @@
 		$prizeType = $conn->fetchArray($conn->exec("select title from type where id = '$typeId'"));
 		$prizeName = $prizeTitle['title'];
 		$typeName = $prizeType['title'];
-		echo " Own $prizeName ( $typeName )";
+		echo "<div>Prize : $prizeName ( $typeName )</div>";
 	}
 ?>

@@ -37,5 +37,6 @@
 			<p>© Copyright 2018. Lions Club. All Right Reserved.</p>
 		</footer>
 	</div>
+	<input type="hidden" name="" id="count" value="0">
 </body>
 </html>

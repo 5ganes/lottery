@@ -19,7 +19,7 @@ function checkEntry(){
         if (this.readyState == 4 && this.status == 200) {
             var check = this.responseText;
             if(check == 'No') setTimeout(checkEntry, 1);
-            document.getElementById('result').innerHTML = '<h2>Congratulations !</h2> <div>Lottery Number : ' + random + '</div>' + check;
+            document.getElementById('result').innerHTML = 'Congratulations !<br> Lottery Number : ' + random + check;
             return random;
         }
     };
@@ -40,7 +40,7 @@ function startLottery(){
 	document.getElementById('start').innerHTML = '<p style="padding:10% 2%;">Generating Lottery Result . . .</p>';
 	document.getElementById('result').style = 'display:none';
 	document.getElementById('load').style = 'display:block';
-	setTimeout(findNumber, 40000);
+	setTimeout(findNumber, 30000);
 }
 function resetLotteryTable(){
 	// reset lottery table
