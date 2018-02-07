@@ -12,7 +12,10 @@
 <body>
 	<div class="container">
 		<header>
-			<h2>Lottery Simulation Game</h2>
+			<div>
+				<h2>Lottery Simulation Game</h2>
+			</div>
+			<div><a href="winners.php">Go to Winners List</a></div>
 		</header>
 		<section>
 			<article>

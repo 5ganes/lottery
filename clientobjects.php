@@ -9,6 +9,12 @@ ini_set("memory_limit", "80M");
 require_once("data/conn.php");
 // require_once("data/donate.php");
 
+require_once("data/prize.php");
+require_once("data/type.php");
+
+$prize					= new Prize();
+$prizeType				= new Type();
+
 $conn 					= new Dbconn();		
 
 require_once("data/constants.php");

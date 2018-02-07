@@ -6,11 +6,19 @@ body{
 	width: 80%; margin: 0 auto;
 }
 header{
-	background:#D1AD01; padding: 3%; font-size: 20px; text-align: center;
+	background:#D1AD01; padding: 2%; font-size: 20px; display: flex;
 }
 h2{
 	margin: 0;
 }
+
+header div:first-child{
+	width: 68%; text-align: right;
+}
+header div:nth-child(2){
+	width: 30%; text-align: right; margin-top: 3%;
+}
+
 section{
 	margin-top: 1%; background: #D1AD01; display: flex;
 }
@@ -53,6 +61,24 @@ section article:nth-child(2) div:nth-child(2){
     border-radius: 150px;
     font-size: 27px;
 }
+
+#result table{
+	color: darkblue;
+}
+.title{
+	font-size: 20px;
+}
+.data{
+	font-size: 16px; font-weight: normal;
+}
+
+/*#result article ol li{
+	margin: 3%;
+}
+#result article ol li a{
+	text-decoration: none; font-size: 20px;
+}*/
+
 
 footer{
 	background: #D1AD01; margin-top: 1%; padding: 3%; text-align: center;

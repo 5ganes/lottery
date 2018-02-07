@@ -14,9 +14,13 @@
 	$result = $conn->fetchArray($conn->exec($sql));
 	$check = $result['count(id)'];
 
-	if($check>0)
-		echo 'No';
-	else{
+	$lotteryFull = $conn->fetchArray($conn->exec("select count(id) from lottery"));
+	$prizeFull = $conn->fetchArray($conn->exec("select count(id) from prize")); 
+
+	if($lotteryFull['count(id)'] == $prizeFull['count(id)']){
+		echo 'Full';
+	}
+	else if($check == 0){
 		$sql = "insert into lottery(id, lotteryNumber, prizeId, typeId) values('', '$ln', '$prizeId', 0)";
 		$conn->exec($sql);
 		$prizeTitle = $conn->fetchArray($conn->exec("select title, type from prize where id = '$prizeId'"));
@@ -25,5 +29,8 @@
 		$prizeName = $prizeTitle['title'];
 		$typeName = $prizeType['title'];
 		echo "<div>Prize : $prizeName ( $typeName )</div>";
+	}
+	else{
+		echo 'No';
 	}
 ?>

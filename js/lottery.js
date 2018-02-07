@@ -18,8 +18,14 @@ function checkEntry(){
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var check = this.responseText;
+            console.log(check);
             if(check == 'No') setTimeout(checkEntry, 1);
-            document.getElementById('result').innerHTML = '<h2>Congratulations !</h2> <div>Lottery Number : ' + random + '</div>' + check;
+            else if(check == 'Full'){
+            	document.getElementById('result').innerHTML = '<h2>Lottery system ended.</h2><div>Reset the lottery to start again.</div>';
+            }
+            else{
+            	document.getElementById('result').innerHTML = '<h2>Congratulations !</h2> <div>Lottery Number : ' + random + '</div>' + check;
+            }
             return random;
         }
     };
@@ -37,7 +43,7 @@ function startLottery(){
 	document.getElementById('start').innerHTML = '<p style="padding:10% 2%;">Generating Lottery Result . . .</p>';
 	document.getElementById('result').style = 'display:none';
 	document.getElementById('load').style = 'display:block';
-	setTimeout(findNumber, 5000);
+	setTimeout(findNumber, 2000);
 
 	checkEntry();
 }
