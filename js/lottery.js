@@ -43,7 +43,7 @@ function startLottery(){
 	document.getElementById('start').innerHTML = '<p style="padding:10% 2%;">Generating Lottery Result . . .</p>';
 	document.getElementById('result').style = 'display:none';
 	document.getElementById('load').style = 'display:block';
-	setTimeout(findNumber, 2000);
+	setTimeout(findNumber, 30000);
 
 	checkEntry();
 }
