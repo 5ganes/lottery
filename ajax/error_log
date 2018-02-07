@@ -1,0 +1,21 @@
+[07-Feb-2018 05:41:57] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 27
+[07-Feb-2018 05:42:09] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 27
+[07-Feb-2018 05:43:51] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/krishwt5/public_html/lottery/data/conn.php on line 58
+[07-Feb-2018 05:43:54] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 27
+[07-Feb-2018 05:46:46] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:46:46] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:47:11] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:48:11] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:48:26] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:48:28] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:48:28] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:48:53] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:48:53] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:48:53] PHP Parse error:  syntax error, unexpected '[' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:49:47] PHP Parse error:  syntax error, unexpected ')' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:49:47] PHP Parse error:  syntax error, unexpected ')' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:49:50] PHP Parse error:  syntax error, unexpected ')' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:49:50] PHP Parse error:  syntax error, unexpected ')' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:49:50] PHP Parse error:  syntax error, unexpected ')' in /home/krishwt5/public_html/lottery/ajax/check.php on line 5
+[07-Feb-2018 05:51:17] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/krishwt5/public_html/lottery/data/conn.php on line 58
+[07-Feb-2018 05:52:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/krishwt5/public_html/lottery/data/conn.php on line 58

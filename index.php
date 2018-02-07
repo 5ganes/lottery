@@ -5,7 +5,7 @@
 <html>
 <head>
 	<title>Lottery Game - LIONS CLUB</title>
-	<?php require 'baselocation.php';?>
+	<?php //require 'baselocation.php';?>
 	<link rel="stylesheet" type="text/css" href="css/lottery.css">
 	<script type="text/javascript" src="js/lottery.js"></script>
 </head>
@@ -29,12 +29,12 @@
 					<img id="load" src="images/loading.gif">
 				</div>
 				<div>
-					<div id="result"></div>
+					<div id="result"><h2>Result Area</h2></div>
 				</div>
 			</article>
 		</section>
 		<footer>
-			<p>© Copyright 2018. Lions Club. All Right Reserved.</p>
+			<p>&copy;Copyright 2018. Lions Club. All Right Reserved.</p>
 		</footer>
 	</div>
 	<input type="hidden" name="" id="count" value="0">

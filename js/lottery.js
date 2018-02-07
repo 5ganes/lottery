@@ -28,9 +28,6 @@ function checkEntry(){
 }
 
 function findNumber(){
-	
-	checkEntry();
-	
 	document.getElementById('load').style = 'display:none';
 	// document.getElementById('result').innerHTML = 'Lottery Number : ' + random;
 	document.getElementById('result').style = 'display:block';
@@ -40,23 +37,23 @@ function startLottery(){
 	document.getElementById('start').innerHTML = '<p style="padding:10% 2%;">Generating Lottery Result . . .</p>';
 	document.getElementById('result').style = 'display:none';
 	document.getElementById('load').style = 'display:block';
-	setTimeout(findNumber, 40000);
+	setTimeout(findNumber, 5000);
+
+	checkEntry();
 }
 function resetLotteryTable(){
 	// reset lottery table
 	var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementById('result').innerHTML = 'Lottery system has been reset successully';
-            return random;
+        	document.getElementById('result').innerHTML = 'Lottery system has been reset successully';
+        	document.getElementById('load').style = 'display:none';
+			document.getElementById('result').style = 'display:block';
+            //return random;
         }
     };
     xmlhttp.open("GET", "ajax/reset.php", true);
     xmlhttp.send();
-
-	document.getElementById('load').style = 'display:none';
-	document.getElementById('result').style = 'display:block';
-
 }
 function resetLottery(){
 	document.getElementById('result').style = 'display:none';
@@ -66,7 +63,7 @@ function resetLottery(){
 function myLoad(){
 	// alert('hello world');
 	document.getElementById('load').style = 'display:none';
-	document.getElementById('result').style = 'display:none';
+	// document.getElementById('result').style = 'display:none';
 	var start = document.getElementById('start');
 	start.addEventListener('click', startLottery);
 
